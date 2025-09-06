@@ -40,6 +40,18 @@ A collection of star pattern solutions in JavaScript.
 
 [Solution →](patterns/basic/right-triangle.js)
 
+### Inverted Right Aligned Triangle
+
+```
+* * * * *
+* * * *
+* * *
+* *
+*
+```
+
+[Solution →](patterns/basic/inverted-right-aligned-triangle.js)
+
 ### Triangle with even number
 
 ```
