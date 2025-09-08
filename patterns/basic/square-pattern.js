@@ -23,4 +23,4 @@ printSquarePattern(n);
 // Explanation:
 // ● Outer loop → Runs n times to print n rows.
 // ● Inner loop → In each row, print n stars.
-// ● After each row, do System.out.println(); to move to the next line.
+// ● After each row, do console.log(); to move to the next line.

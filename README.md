@@ -28,6 +28,18 @@ A collection of star pattern solutions in JavaScript.
 
 [Solution →](patterns/basic/left-triangle.js)
 
+### Hollow Left Triangle
+
+```
+*
+* *
+*   *
+*     *
+* * * * *
+```
+
+[Solution →](patterns/basic/hollow-left-triangle.js)
+
 ### Right Triangle
 
 ```
@@ -39,6 +51,66 @@ A collection of star pattern solutions in JavaScript.
 ```
 
 [Solution →](patterns/basic/right-triangle.js)
+
+### Hollow Right Triangle
+
+```
+        *
+      * *
+    *   *
+  *     *
+* * * * *
+```
+
+[Solution →](patterns/basic/hollow-right-triangle.js)
+
+### Inverted Right Aligned Triangle
+
+```
+* * * * *
+* * * *
+* * *
+* *
+*
+```
+
+[Solution →](patterns/basic/inverted-right-aligned-triangle.js)
+
+### Downward Hollow Left Triangle
+
+```
+* * * * *
+*     *
+*   *
+* *
+*
+```
+
+[Solution →](patterns/basic/downward-hollow-left-triangle.js)
+
+### Lower Right Aligned Triangle
+
+```
+* * * * *
+  * * * *
+    * * *
+      * *
+        *
+```
+
+[Solution →](patterns/basic/lower-right-aligned-triangle.js)
+
+### Downward Hollow Right Triangle
+
+```
+* * * * *
+  *     *
+    *   *
+      * *
+        *
+```
+
+[Solution →](patterns/basic/downward-hollow-right-triangle.js)
 
 ### Triangle with even number
 
@@ -197,6 +269,18 @@ ABCDE
 
 [Solution →](patterns/basic/hollow-square.js)
 
+### Crossed Square
+
+```
+* * * * *
+* *   * *
+*   *   *
+* *   * *
+* * * * *
+```
+
+[Solution →](patterns/basic/crossed-square.js)
+
 ## Pyramid Patterns
 
 ### Centered Pyramid
@@ -270,6 +354,18 @@ b*b*b*b*
 
 [Solution →](patterns/pyramid/inverted-pyramid.js)
 
+### Downward Hollow Pyramid
+
+```
+* * * * * * * * *
+  *           *
+    *       *
+      *   *
+        *
+```
+
+[Solution →](patterns/pyramid/downward-hollow-pyramid.js)
+
 ### Print up-down Pyramid
 
 ```
@@ -283,6 +379,22 @@ b*b*b*b*
 ```
 
 [Solution →](patterns/pyramid/print-up-down-pyramid.js)
+
+### Hollow Diamond
+
+```
+        *
+      *   *
+    *       *
+  *           *
+*               *
+  *           *
+    *       *
+      *   *
+        *
+```
+
+[Solution →](patterns/pyramid/hollow-diamond.js)
 
 ### Hollow Pyramid
 

@@ -23,4 +23,4 @@ printTriangleWithRepeatingNumberPerRow(n);
 // ● Outer loop runs for each row (from 1 to 5).
 // ● Inner loop prints the current row number (i) exactly i times.
 // ● After printing for one row, we move to the next line using
-// System.out.println().
+// console.log().

@@ -8,8 +8,8 @@ EEEEE
 
 const n = 5;
 function printRepeatedAlphabetPerRow(n) {
-  startChar = "A";
-  charAsciiValue = startChar.charCodeAt(0);
+  const startChar = "A";
+  let charAsciiValue = startChar.charCodeAt(0);
   for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= i; j++) {
       process.stdout.write(String.fromCharCode(charAsciiValue));
@@ -27,4 +27,4 @@ printRepeatedAlphabetPerRow(n);
 // ● In each row, calculate the character as 'A' + i:
 // ○ Row 0 → A, Row 1 → B, ..., Row 4 → E.
 // ● Inner loop prints the same character i+1 times.
-// ● System.out.println() moves to next line.
+// ● console.log() moves to next line.
