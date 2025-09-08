@@ -9,19 +9,19 @@
 const n = 5;
 function printPyramidWithReversedNumbers(n) {
   for (let i = 0; i < n; i++) {
-    reverseNumber = n;
+    let reverseNumber = n;
     // add space at left side
     for (let j = 1; j <= n - i - 1; j++) {
       process.stdout.write(" ");
     }
     // add number at middle part
-    for (k = 0; k <= i; k++) {
+    for (let k = 0; k <= i; k++) {
       process.stdout.write(reverseNumber.toString());
       reverseNumber--;
     }
     // add number at right part
-    numberToPrint = reverseNumber + 2;
-    for (k = i - 1; k >= 0; k--) {
+    let numberToPrint = reverseNumber + 2;
+    for (let k = i - 1; k >= 0; k--) {
       process.stdout.write(numberToPrint.toString());
       numberToPrint++;
     }
@@ -38,4 +38,4 @@ printPyramidWithReversedNumbers(n);
 // until the appropriate number for each row.
 // ● The third loop prints numbers in ascending order, starting from the number after the
 // descending ones.
-// ● System.out.println() moves to the next line after each row.
+// ● console.log() moves to the next line after each row.

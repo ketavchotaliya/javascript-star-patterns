@@ -9,7 +9,7 @@
 
 const n = 5;
 function printInvertedRightAlignedTriangle(n) {
-  for (let i = n; i > 1; i--) {
+  for (let i = n; i >= 1; i--) {
     for (let k = 0; k < i; k++) {
       process.stdout.write("*");
     }

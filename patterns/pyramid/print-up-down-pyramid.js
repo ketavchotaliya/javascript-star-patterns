@@ -19,11 +19,11 @@ function printUpDownPyramid(n) {
       process.stdout.write(" ");
     }
     // add * at middle part
-    for (k = 1; k <= i; k++) {
+    for (let k = 1; k <= i; k++) {
       process.stdout.write("*");
     }
     // add * at right side (reverse loop)
-    for (m = i - 1; m >= 1; m--) {
+    for (let m = i - 1; m >= 1; m--) {
       process.stdout.write("*");
     }
 
@@ -36,11 +36,11 @@ function printUpDownPyramid(n) {
       process.stdout.write(" ");
     }
     // add * at middle part
-    for (k = i + 1; k < n; k++) {
+    for (let k = i + 1; k < n; k++) {
       process.stdout.write("*");
     }
     // // add * at right side (reverse loop)
-    for (m = 1; m < n - i - 1; m++) {
+    for (let m = 1; m < n - i - 1; m++) {
       process.stdout.write("*");
     }
     console.log();
@@ -60,4 +60,4 @@ printUpDownPyramid(n);
 // ○ Similar to the first loop but starts from rows - 1 and prints fewer stars as the
 // row number decreases.
 
-// ● System.out.println() moves to the next line after printing each row.
+// ● console.log() moves to the next line after printing each row.

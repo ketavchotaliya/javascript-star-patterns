@@ -37,4 +37,4 @@ printUpDownTriangle(n);
 // stars.
 // ● The second loop prints the lower half of the pattern, starting from rows-1 stars down
 // to 1 star.
-// ● System.out.println() moves to the next line after printing each row.
+// ● console.log() moves to the next line after printing each row.

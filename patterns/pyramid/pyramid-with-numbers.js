@@ -33,4 +33,4 @@ printPyramidWithNumbers(n);
 // ● Leading spaces: Inner loop prints spaces for alignment to form the pyramid shape.
 // ● Ascending numbers: Print numbers from 1 to i.
 // ● Descending numbers: Print numbers from i-1 down to 1.
-// ● System.out.println() moves to the next line after each row.
+// ● console.log() moves to the next line after each row.

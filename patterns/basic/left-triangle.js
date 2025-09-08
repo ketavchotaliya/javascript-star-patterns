@@ -24,4 +24,4 @@ printLeftTriangle(n);
 // ● Outer loop runs from i = 1 to i = n.
 // ● In each row, print i stars.
 // ● After printing all stars in a row, move to the next line using
-// System.out.println();.
+// console.log();.

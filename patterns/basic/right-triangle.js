@@ -26,5 +26,5 @@ printRightTriangle(n);
 // Explanation:
 // ● First inner loop: Print (n-i-1) spaces.
 // ● Second inner loop: Print (i+1) stars after spaces.
-// ● After printing spaces and stars for one row, use System.out.println(); to
+// ● After printing spaces and stars for one row, use console.log(); to
 // move to the next line.

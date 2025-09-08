@@ -21,4 +21,4 @@ printTriangleWithIncreasingNumberSequence(n);
 // ● Outer loop runs from i = 1 to i = n.
 // ● Inner loop prints numbers starting from 1 up to i in each row.
 // ● After printing the numbers in each row, move to the next line with
-// System.out.println();.
+// console.log();.
